@@ -331,7 +331,7 @@
 }
 #content_left .content_left_ul:hover{
     border: 2px solid red;
-    border-right: 2px solid white;
+    border-right: none;
     z-index: 10;
 }
 #content_left .content_left_ul a:hover{
