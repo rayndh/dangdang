@@ -1,0 +1,883 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#web{
+    width: 1200px;
+    margin: 0px auto;
+}
+#top_ad{
+    width: 1200px;
+    height: 300px;
+    background-color: skyblue;
+    margin: 0px auto;
+}
+#top_tittle{
+    width: 1200px;
+    height: 178px;
+    border-bottom: 1px solid red;
+    position: relative;
+    /*background-color: gray;*/
+}
+#top_tittle_tools{
+    width: 1200px;
+    height: 35px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+#area{
+    position: absolute;
+    font-size: 13px;
+    left: 0px;
+    line-height: 35px;
+    /*top: -3px;*/
+}
+#area p{
+    margin-left: 10px;
+}
+#area .pclass{
+    width: 80px;
+    margin-left: 0px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-bottom: none;
+}
+#area_address{
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    z-index: 10;
+    box-sizing: border-box;
+    padding-top: 8px;
+    border: 1px solid #eeeeee;
+    /*display: none;*/
+}
+#area_address ul{
+    width: 310px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    /*padding: ;*/
+}
+#area_address li{
+    width: 60px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+}
+#area_address li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#welcom{
+    position: absolute;
+    left: 490px;
+    line-height: 35px;
+    font-size: 12px;
+    top: -3px;
+}
+#welcom a{
+    text-decoration: none;
+    color: black;
+}
+#welcom a:first-child{
+    color: red;
+}
+#top_tittle_tools_nav{
+    float: right;
+    width: 533px;
+    height: 28px;
+    padding: 1px;
+
+}
+#top_tittle_tools_nav ul{
+    list-style: none;
+    width: 533px;
+    line-height: 28px;
+}
+#top_tittle_tools_nav ul li{
+    float: left;
+    width: 75px;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+}
+#top_tittle_tools_nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#web a:hover{
+   color: red;
+}
+#search a:hover{
+    color: red;
+}
+
+
+
+
+
+#top_tittle_search{
+    width: 1200px;
+    height: 100px;
+    position: relative;
+}
+#logo{
+    width: 342px;
+    height: 77px;
+    float: left;
+}
+#search{
+    width: 580px;
+    height: 77px;
+    position: relative;
+    margin: 0px 5px;
+    float: left;
+}
+#search_main input[type="text"]{
+    margin-top: 20px;
+    width: 436px;
+    line-height: 28px;
+    border: 1px solid red;
+}
+
+.All_class{
+    width: 98px;
+    line-height: 28px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    position: absolute;
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+    top: 20px;
+}
+#al{
+    width: 98px;
+    height: 288px;
+    background-color: white;
+    position: absolute;
+    right: 44px;
+    z-index: 10;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+}
+#al li{
+    width: 98px;
+    list-style:none;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+#al li a{
+    display: inline-block;
+    width: 98px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+
+}
+#al li a:hover{
+    color: white;
+    background-color: darkgray;
+}
+
+.aclass {
+    position: absolute;
+    top: 20px;
+    left: 536px
+}
+.aclass img{
+    width: 50px;
+    height: 30px;
+}
+
+#search_bottom a{
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+}
+.advancedSearch{
+    float: right;
+}
+#search_right{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    float: right;
+    background-color: red;
+    margin-top: 16px;
+    border: 1px solid grey;
+    font-weight: bolder;
+}
+#search_right a{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    color: black;
+}
+#search_right .count{
+    float: right;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+#search_right .car{
+    float: right;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+#search_right .car a{
+    color:white;
+    text-decoration: none;
+    width: 100px;
+    line-height: 40px;}
+#search_right a:hover{
+    background-color: #f6f6f6;
+    border-right: 1px solid grey;
+    color: red ;
+}
+
+
+#top_nav{
+    width: 1200px;
+    height: 43px;
+    /*background-color: seagreen;*/
+}
+#top_nav_left{
+    /*position: absolute;*/
+    text-align: center;
+    background-color: red;
+    width: 200px;
+    line-height: 43px;
+    float: left;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+#top_nav_right{
+    width: 1000px;
+    line-height: 43px;
+    float: left;
+}
+#top_nav_right ul{
+    list-style: none;
+    width: 1000px;
+}
+#top_nav_right ul li{
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    line-height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    font-weight: bold;
+    position: relative;
+}
+#top_nav_right ul li img{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    left: 18px;
+    top: -5px;
+
+}
+#top_nav_right ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#main_content{
+    width: 1200px;
+    height: 528px;
+    position: relative;
+    margin-top: 2px;
+}
+#content_left{
+    width: 200px;
+    height: 528px;
+    float: left;
+    color: red;
+}
+#content_left .content_left_ul{
+    width: 200px;
+    height: 31px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+#content_left .content_left_ul a{
+    width: 200px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+#content_left .content_left_ul:hover{
+    border: 2px solid red;
+    border-right: 2px solid white;
+    z-index: 10;
+}
+#content_left .content_left_ul a:hover{
+    font-size: 15px;
+    z-index: 6;
+    color: red;
+
+
+}
+#content_middle{
+    width: 797px;
+    height: 488px;
+    float: left;
+    background-color: #fff;
+    position: relative;
+}
+#content_middle .content_hide{
+    width: 797px;
+    height: 492px;
+    background-color: white;
+    position: absolute;
+    border: 2px solid red;
+    z-index: 5;
+    padding-top: 5px;
+    margin-left: -2px;
+
+}
+#content_middle .content_hide .bread p,span{
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+}
+#content_middle .content_hide .bread p{
+    width: 50px;
+    background-color: #a2a2a2;
+    color: white;
+}
+#content_middle .content_hide .bread span{
+    width: 18px;
+    background-color: #c8c8c8;
+}
+#content_middle .content_hide .bread p:hover{
+    background-color: red;
+}
+#content_middle .content_hide .bread span:hover{
+    background-color: pink;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+#content_middle .content_hide .wxx{
+    width: 797px;
+    height: 30px;
+    /*background-color: blue;*/
+}
+#content_middle .content_hide .bread{
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    float: left;
+    /*background-color: yellow;*/
+}
+#content_middle .content_hide .top{
+    list-style: none;
+    width: 797px;
+    height: 38px;
+    text-align: center;
+    border-top:  1px dashed gainsboro;
+    overflow: hidden;
+}
+
+#content_middle .content_hide .top span{
+    text-align: center;
+    display: inline-block;
+    width: 86px;
+    font-size: 15px;
+    line-height: 30px;
+    float: left;
+    color: red;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#content_middle .content_hide .top li{
+    float: left;
+}
+#content_middle .content_hide .top li a{
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    width: 99px;
+    line-height: 25px;
+    color: #a2a2a2;
+    margin-top: 5px;
+}
+#content_middle .content_hide .top #child{
+    color: red;
+}
+#content_middle .content_hide .top li a:hover{
+    color: red;
+}
+#content_middle .content_hide  .top .xxo{
+    width: 60px;
+    margin-left: 2px;
+    text-align: left;
+}
+
+
+
+
+
+#content_middle .content_wheel{
+    width: 797px;
+    height: 327px;
+    background-color: yellow;
+
+}
+#content_middle .content_wheel{
+    position: relative;
+    width: 796px;
+    height: 326px;
+}
+#content_middle .content_wheel .nav{
+    position: absolute;
+}
+
+#content_middle .content_wheel .click{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 45px;
+    height: 60px;
+    color: white;
+    top: 133px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 32px;
+    cursor: pointer;
+}
+#content_middle .content_wheel .left{
+    left:0px;
+}
+#content_middle .content_wheel .right{
+    right:0px;
+}
+
+#number{
+    position: absolute;
+    width: 370px;
+    height: 30px;
+    bottom: 8px;
+    left: 270px;
+}
+#number .num{
+    float: left;
+    width: 15px;
+    margin-left: 5px;
+    background-color: gray;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 15px;
+    font-size: 3px;
+    cursor: pointer;
+}
+#number .bg{
+    background-color: red;
+}
+
+#content_middle .content_massage{
+    width: 797px;
+    height: 160px;
+    /*background-color: deepskyblue;*/
+}
+#content_middle .content_massage ul{
+    list-style: none;
+    height: 160px;
+}
+#content_middle .content_massage ul li{
+    float: left;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: none;
+}
+
+
+#content_right{
+    width: 203px;
+    height: 488px;
+    float: right;
+
+
+}
+#content_right_top{
+    width: 202px;
+    height: 195px;
+}
+#content_right_middle{
+    width: 202px;
+    height: 180px;
+}
+#content_right_middle .ul_right_middle{
+    width: 202px;
+    line-height: 30px;
+    background-color: red;
+    list-style: none;
+    position: relative;
+}
+#content_right_middle .ul_right_middle li{
+    margin-left: 11px;
+    float: left;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#content_right_middle .content_right_message{
+    box-sizing: border-box;
+    text-indent: 0.5px;
+}
+#content_right_middle .content_right_message li{
+    margin-left: 10px;
+    font-size: 13px;
+    width: 180px;
+    line-height: 24px;
+    list-style: none;
+}
+#content_right_middle .content_right_message li a{
+    text-decoration: none;
+    color: black;
+}
+#content_right_middle .content_right_message li a:hover{
+    color: red;
+}
+#content_right_middle .ul_right_middle .bg_right_middle{
+    background-color: #eeeeee;
+}
+#state{
+    color: red;
+}
+
+#content_right_bottom{
+    width: 202px;
+    height: 116px;
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+
+}
+#content_right_bottom .content_right_bottom_ul{
+    width: 202px;
+    height: 28px;
+    text-align: center;
+}
+#content_right_bottom .content_right_bottom{
+    background-color: #eeeeee;
+    list-style: none;
+    float: left;
+    line-height: 28px;
+    font-size: 12px;
+    width: 65px;
+    border: 1px solid gainsboro;
+}
+#content_right_bottom .content_right_bottom a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+}
+#content_right_bottom .bd{
+    border-bottom: none;
+    background-color: white;
+}
+#seckill{
+    width: 1200px;
+    height: 513px;
+    /*background-color: purple;*/
+}
+#miaosha{
+    width: 996px;
+    height: 513px;
+    /*background-color: red;*/
+    float: left;
+}
+#miaosha .miaosha_tittle{
+    width: 996px;
+    height: 41px;
+    border-bottom: 2px solid black;
+    /*background-color: blue;*/
+}
+#miaosha .miaosha_tittle .time{
+    width: 224px;
+    height: 39px;
+    /*background-color: black;*/
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 39px;
+}
+#timer{
+    float: right;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 5px;
+
+}
+
+#miaosha .miaosha_tittle .time .span{
+    display: inline-block;
+    width: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    border: 1px solid #eeeeee;
+    margin-right: 3px;
+    box-sizing: border-box;
+    /*float: right;*/
+    overflow: hidden;
+}
+
+#miaosha .miaosha_tittle .time .fenhao{
+    height: 20px;
+    width: 3px;
+    border: none;
+}
+#miaosha .miaosha_tittle .hotTime{
+    width: 650px;
+    height: 39px;
+    margin-left: 30px;
+    background-color: #fff;
+    float: left;
+}
+#hotTimelist{
+    list-style: none;
+    width: 650px;
+    line-height: 39px;
+}
+#hotTimelist .hotTimelist{
+    float: left;
+    width: 80px;
+    line-height: 39px;
+    margin-right: 50px;
+    text-align: center;
+}
+#hotTimelist .hotTimelist a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.8);
+}
+#hotTimelist #spanid{
+    color: red;
+    font-size: 20px;
+}
+#hotTimelist .hotTimelist a:hover{
+    color: red;
+}
+
+#miaosha .list{
+    width: 996px;
+    height: 470px;
+    /*background-color: greenyellow;*/
+}
+#miaosha .list .div div{
+   width: 196px;
+    height: 235px;
+    border: 1px solid #eeeeee;
+    float: left;
+    text-align: center;
+    padding-top: 17px;
+    box-sizing: border-box;
+    /*box-shadow: 0 0 5px rgba(0,0,0,0.8);*/
+}
+#miaosha .list .div div a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+#miaosha .list .div div a:hover{
+    color: red;
+}
+#miaosha .list .div div .sp{
+    font-size: 12px;
+    color: red;
+}
+#miaosha .list .div div .pric{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+#miaosha .list .div div s{
+    color: gray;
+    font-size: 10px;
+}
+
+#miaosha_right{
+    width: 204px;
+    height: 511px;
+    /*background-color: yellow;*/
+    margin-top: 2px;
+    float: right;
+}
+#miaosha_right .miaosha_right_tittle{
+    width: 204px;
+    height: 41px;
+    /*background-color: skyblue;*/
+    padding-top: 5px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    font-size: 20px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+#miaosha_right .miaosha_right_content{
+    width: 204px;
+    height: 456px;
+    /*background-color: gold;*/
+}
+#miaosha_right .miaosha_right_content li{
+    box-sizing: border-box;
+    list-style: none;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 0px;
+}
+
+#like{
+    margin-top: 8px;
+    width: 1200px;
+    height: 1100px;
+    /*background-color: yellow;*/
+    border-bottom: 1px solid gray;
+}
+#like_top{
+    position: relative;
+    width: 1200px;
+    height: 36px;
+    border-bottom: 2px solid red;
+    padding-bottom: 0px;
+    padding-top: 7px;
+    padding-left: 7px;
+    box-sizing: border-box;
+
+}
+#like_top #youlike{
+    width: 82px;
+    height: 36px;
+    color: red;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#books{
+    padding-top: 5px;
+    /*padding-left: px;*/
+    /*padding-right: 2px;*/
+}
+
+#books .books_box{
+    margin-bottom: 1px;
+    width: 166px;
+    text-align: center;
+    height: 260px;
+    /*border: 1px solid black;*/
+    margin-left: 3px;
+    margin-right: 2px;
+    background-color: #fff;
+    float: left;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-top: 2px;
+
+}
+#books .books_box img{
+    text-align: center;
+}
+
+
+#books .books_box a{
+    display: inline-block;
+    text-align: center;
+    width: 164px;
+    height: 40px;
+    /*background-color: yellow;*/
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+#books .books_box a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#books .books_box .bookpric{
+    text-align: left;
+    text-indent: 1em;
+    color: red;
+    font-size: 18px;
+    width: 198px;
+    line-height: 34px;
+}
+#books .books_box a img{
+    width: 164px;
+    height: 164px;
+}
+#footer{
+    width: 1200px;
+    height: 543px;
+    /*background-color: grey;*/
+    position: relative;
+}
+#footer_tittle {
+    width: 1200px;
+    height: 79px;
+    background:url("bca.png"),repeat-x;
+    /*background-color: yellow;*/
+}
+#webend{
+    margin-top: 10px;
+    width: 854px;
+    height: 69px;
+    position: absolute;
+    left: 170px;
+
+}
+#footer_middle{
+    width: 1200px;
+    height: 170px;
+    position: relative;
+    border-bottom: 1px solid grey;
+    /*background-color: pink;*/
+}
+#endd{
+    width: 858px;
+    height: 155px;
+    position: absolute;
+    /*background-color: yellow;*/
+    left: 169px;
+}
+#bottom{
+    width: 1200px;
+    height: 300px;
+    /*background-color: skyblue;*/
+    position: relative;
+}
+#web_bottom{
+    width: 870px;
+    height: 264px;
+    position: absolute;
+    left: 171px;
+}
